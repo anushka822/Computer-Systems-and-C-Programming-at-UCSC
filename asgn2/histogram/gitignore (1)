@@ -1,0 +1,5 @@
+histogram
+histogram.o
+*.txt
+!testing.out
+
