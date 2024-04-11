@@ -1,0 +1,6 @@
+coolness
+coolness.o
+*.txt 
+test.out
+!testing.out
+
