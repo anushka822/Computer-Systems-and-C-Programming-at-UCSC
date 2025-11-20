@@ -25,6 +25,9 @@ Each project is organized into its own subfolder with its own README containing 
   1. **Histogram** – Visualizes user input as a histogram with ASCII characters.  
   2. **Coolness** – Calculates a “coolness” score based on temperature and wind speed.  
 
+- **Password Checker**  
+  Verifies whether a password meets specified security requirements, including length, uppercase/lowercase letters, numbers, and absence of first/last name.
+
 - **[Other Assignments]**  
   Folders `asgn3`, `asgn4`, `asgn5`, etc. contain additional C programming assignments with source code and test scripts.
 
