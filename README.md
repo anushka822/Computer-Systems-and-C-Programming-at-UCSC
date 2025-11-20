@@ -36,38 +36,11 @@ Each project is organized into its own subfolder with its own README containing 
 - **Data-Structures-Hashtable-Set-LRU**
   Contains several files that implement a Set, Hashtable, and LRU Cache.
 
-- **[Other Assignments]**  
-  Folders `asgn3`, `asgn4`, `asgn5`, etc. contain additional C programming assignments with source code and test scripts.
-
 ---
 
 ## How to Navigate
 
 1. Click into the folder of the project you want to view.  
-2. Open the README.md inside that folder for detailed instructions.  
-3. Compile and run programs as described in the individual README files.
+2. Open the README.md inside that folder for detailed instructions on how to compile and run programs.
 
 ---
-
-## Folder Structure (example)
-
-```
-C-Programming-Assignments/
-│
-├── C-Projects-Histogram-Coolness/
-│   ├── Histogram/
-│   └── Coolness/
-│
-├── asgn3/
-├── asgn4/
-├── asgn5/
-├── README.md
-└── .gitignore
-```
-
----
-
-## Notes
-
-- Each project folder contains: source code, Makefile, test scripts, and a README.  
-- This repository is structured to make it easy for employers and recruiters to review completed projects.
