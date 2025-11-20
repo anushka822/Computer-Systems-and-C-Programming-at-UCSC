@@ -23,6 +23,8 @@ The project demonstrates **dynamic memory allocation, array resizing, pointer ma
 |------|-------------|
 | `growing_arrays.c` | Implementation of dynamic array functions (`add_record`, `del_record`, `get_id`, `get_record`). |
 | `growing_arrays.h` | Header file defining `Record` struct, `Table` struct, and function prototypes. |
+| `test_growing_arrays.c` | Example/test file to validate array functionality. |
+| `Makefile` | Compiles the dynamic array and test program. |
 | `README.md` | Project description and usage instructions. |
 
 ---
