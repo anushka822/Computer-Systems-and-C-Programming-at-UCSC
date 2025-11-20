@@ -32,8 +32,8 @@ Each project is organized into its own subfolder with its own README containing 
   Contains two projects:
   1. **growing_arrays** - Implements a dynamic array of records that can add, delete, retrieve, and search records.
   2. **ll_cycle** - Detects whether a singly linked list contains a cycle.
-  
-- **Data-Structures-Hashtable-Set-LRU**
+
+- **Data-Structures-Hashtable-Set-LRU**  
   Contains several files that implement a Set, Hashtable, and LRU Cache.
 
 ---
