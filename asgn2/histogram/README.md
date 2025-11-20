@@ -1,22 +1,57 @@
-Histogram, Anushka Hada,anhada@ucsc.edu
+# Histogram
 
-Description: Histogram takes in inputs. If inputs fall out if rage [0,16) double it. If it falls bettween bin sizes then add an asterick at the end.
+**Author:** Anushka Hada  
+**Email:** anhada@ucsc.edu  
 
-File names and what they do:
+---
 
-.gitignore: Allows unwanted files to be not included
+## Description
+`Histogram` is a C program that takes user inputs and visualizes them as a histogram.  
+- Inputs outside the range `[0,16)` are **doubled**.  
+- Inputs within defined **bin ranges** are represented with **asterisks**.  
 
-histogram.c: Actuall program
+This project demonstrates **C programming, input validation, file compilation with Makefile, and basic data visualization**.
 
-testing.out: Testing scripts output
+---
 
-testing.sh: Tests to check if histogram works as intented
+## Files in the Repository
 
-Makefile: Compiles Histogram
+| File | Description |
+|------|-------------|
+| `.gitignore` | Excludes unnecessary files from the repository. |
+| `histogram.c` | Main program source code. |
+| `testing.out` | Output from testing scripts. |
+| `testing.sh` | Script to test the histogram program. |
+| `Makefile` | Compiles the program. |
+| `README.md` | Project description and instructions. |
 
-README.md: Description of git repository and the files within		
+---
 
-How to compile: Once in the correct directory. Type in "make". This compiles the files.
+## How to Compile
 
-How to run it: Type "./histogram". And then enter inputs. Once done press ctrl+D to end. 
+1. Open a terminal in the project directory.  
+2. Run:
+```
+make
+```
+This compiles the program and generates the executable `histogram`.
 
+---
+
+## How to Run
+
+1. Execute the program:
+```
+./histogram
+```
+2. Enter the inputs.  
+3. Press **Ctrl + D** to end input and display the histogram.
+
+---
+
+## Skills Demonstrated
+
+- C programming and input handling  
+- Makefile usage and build automation  
+- Writing test scripts for program verification  
+- Data visualization with ASCII histograms
