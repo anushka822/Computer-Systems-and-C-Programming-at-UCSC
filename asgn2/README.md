@@ -23,26 +23,8 @@ This repository contains two C programming projects completed as part of CSE-13S
    - **See [`Coolness/README.md`](./Coolness/README.md) for details.**
 
 ---
-
-## Skills Demonstrated
-
-- C programming, input handling, and command-line arguments  
-- Error handling and validation  
-- Using Makefiles for project compilation  
-- Writing test scripts to verify program correctness  
-- ASCII-based data visualization (Histogram)
-
----
-
 ## How to Compile & Run
-
-Each project contains its own `Makefile`. To compile a project:  
-1. Navigate to the project directory (e.g., `Histogram` or `Coolness`).  
-2. Run:
-```
-make
-```
-3. Execute the program as described in the respective project README.
+Compile & Run the program as described in the respective project README.
 
 ---
 
