@@ -1,33 +1,66 @@
-Coolness, Anushka Hada, anhada@ucsc.edu
+# Coolness
 
-Description: Coolness file takes in argument Temprature and Wind. It then calculates “coolness” as a function of wind speed and temperature. When arguments are passed T is the first argument, V second. 
+**Author:** Anushka Hada  
+**Email:** anhada@ucsc.edu  
 
-In case of one argument, take that one argument as Temp and find coolness using the wind speed values 5,10,15. 
+---
 
-In case of two argument, find coolness as is. 
+## Description
+`Coolness` is a C program that calculates a “coolness” value as a function of **temperature** and **wind speed**.  
 
-In case of two and above arguments, return error and exit with 1.
+Behavior based on inputs:  
+- **No arguments:** Calculates coolness for a range of parameters:  
+  - Temperature (T) from -10 to 40 in steps of 10  
+  - Wind speed (V) from 5 to 15 in steps of 5  
+- **One argument:** Treats the argument as temperature (T) and calculates coolness for wind speeds 5, 10, 15  
+- **Two arguments:** Calculates coolness for the given temperature and wind speed  
+- **More than two arguments:** Returns an error and exits with code 1  
+- **Invalid inputs for T or wind speed:** Returns an error and exits with code 1  
+- **Normal termination:** Program exits with code 0  
 
-In case of wrong inputs for T and wind speed return error and exit with 1.
+---
 
-In case of no inputs. The program calculates coolness for a range of parameters: T from -10 to 40 in steps of 10, and V from 5 to 15 
-in steps of 5. If the program terminates normally, it exits with return code 0. Otherwise, it exits with return code 1. 
+## Files in the Repository
 
-File names and what they do:
+| File | Description |
+|------|-------------|
+| `.gitignore` | Excludes unwanted files from the repository. |
+| `coolness.c` | Main program source code. |
+| `testing.out` | Output from testing scripts. |
+| `testing.sh` | Script to test the program behavior. |
+| `Makefile` | Compiles the program. |
+| `README.md` | Project description and instructions. |
 
-.gitignore: Allows unwanted files to be not included when compiled
+---
 
-coolness.c: Program containg code
+## How to Compile
 
-testing.out: Test script made when running testing.sh.
+1. Open a terminal in the project directory.  
+2. Run:  
+```
+make
+```
+This will compile `coolness.c` into the executable `coolness`.
 
-testing.sh: Basic testing script to ensure that program runs as expected. 
+---
 
-Makefile: Complies files
+## How to Run
 
-README.md: Discription of files 		
+1. Manually compile (alternative to Makefile):  
+```
+gcc -o coolness coolness.c -lm
+```
+2. Run the program with temperature and wind speed arguments:  
+```
+./coolness [T] [V]
+```
+3. Follow the rules above for the number of arguments.  
 
-How to compile:Enter "make" on terminal under the directory that contans the files
+---
 
-How to run it: Enter "gcc -o coolness coolness.c -lm" and then "./coolness k n" to run manually on terminal.
+## Skills Demonstrated
 
+- C programming and command-line argument handling  
+- Input validation and error handling  
+- Makefile usage for compilation  
+- Writing and running basic testing scripts
