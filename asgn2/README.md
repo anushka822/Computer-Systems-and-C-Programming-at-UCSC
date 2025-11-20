@@ -22,12 +22,6 @@ This repository contains two C programming projects completed as part of CSE-13S
    - Includes testing scripts and a Makefile for compilation.  
    - **See [`Coolness/README.md`](./Coolness/README.md) for details.**
 
----
-## How to Compile & Run
-Compile & Run the program as described in the respective project README.
-
----
-
 ## Folder Structure
 
 ```
