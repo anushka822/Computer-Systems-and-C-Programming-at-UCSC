@@ -27,6 +27,8 @@ Each project is organized into its own subfolder with its own README containing 
 
 - **Password Checker**  
   Verifies whether a password meets specified security requirements, including length, uppercase/lowercase letters, numbers, and absence of first/last name.
+  
+- **LinkedList-Array-Projects**
 
 - **[Other Assignments]**  
   Folders `asgn3`, `asgn4`, `asgn5`, etc. contain additional C programming assignments with source code and test scripts.
