@@ -29,6 +29,12 @@ Each project is organized into its own subfolder with its own README containing 
   Verifies whether a password meets specified security requirements, including length, uppercase/lowercase letters, numbers, and absence of first/last name.
   
 - **LinkedList-Array-Projects**
+  Contains two projects:
+  1. **growing_arrays** - Implements a dynamic array of records that can add, delete, retrieve, and search records.
+  2. **ll_cycle** - Detects whether a singly linked list contains a cycle.
+  
+- **Data-Structures-Hashtable-Set-LRU**
+  Contains several files that implement a Set, Hashtable, and LRU Cache.
 
 - **[Other Assignments]**  
   Folders `asgn3`, `asgn4`, `asgn5`, etc. contain additional C programming assignments with source code and test scripts.
