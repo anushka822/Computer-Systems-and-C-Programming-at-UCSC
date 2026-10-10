@@ -1,8 +1,6 @@
 # C Programming Assignments
 
 **Author:** Anushka Hada  
-**Email:** anhada@ucsc.edu  
-
 ---
 
 ## Description
@@ -35,12 +33,3 @@ Each project is organized into its own subfolder with its own README containing 
 
 - **Data-Structures-Hashtable-Set-LRU**  
   Contains several files that implement a Set, Hashtable, and LRU Cache.
-
----
-
-## How to Navigate
-
-1. Click into the folder of the project you want to view.  
-2. Open the README.md inside that folder for detailed instructions on how to compile and run programs.
-
----
